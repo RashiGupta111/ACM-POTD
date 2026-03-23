@@ -1,4 +1,23 @@
- vector<int> twoSum(vector<int>& nums, int target) {
+
+# Day 1 - POTD
+
+## Problem Name:
+TWO SUM
+
+## Approach:
+- Step 1: Traverse the array elements through i index
+- Step 2: Second index j also traverse after i and do compare sum with the target
+- Step 3: Returns index values if summation=target.
+
+## Code:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // your code here
+
+      vector<int> twoSum(vector<int>& nums, int target) {
         int n=nums.size();
         vector<int> v;
         for(int i=0; i<n; i++){
@@ -10,8 +29,10 @@
             }
         }
         return {};
-    }
-    
+    }   
+}
+ 
+  
 <img width="1904" height="907" alt="Screenshot 2026-03-23 224326" src="https://github.com/user-attachments/assets/c87d0be4-ebca-492b-8df9-c5d88a91a4f2" />
 
 //Time complexity: O(n2)
