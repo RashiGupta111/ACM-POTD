@@ -1,5 +1,5 @@
 
-# Day 1 - POTD
+# Day 2 - POTD
 
 ## Problem Name:
 TWO SUM
@@ -34,6 +34,3 @@ int main() {
 
 //Time complexity: O(n2)
 //Space complexity: O(1).
-
-
-<img width="1904" height="907" alt="Screenshot 2026-03-23 224326" src="https://github.com/user-attachments/assets/b43b91a1-87d6-4179-ad6c-cfbfeec87fdf" />
