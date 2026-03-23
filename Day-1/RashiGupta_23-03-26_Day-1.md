@@ -1,5 +1,5 @@
 
-# Day 2 - POTD
+# Day 1 - POTD
 
 ## Problem Name:
 TWO SUM
