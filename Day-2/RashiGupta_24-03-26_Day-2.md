@@ -10,7 +10,7 @@ REMOVE DUPLICATES FROM SORTED ARRAY
 - Step 3: Return the size of unique k elements of array.
 
 ## Screenshot:
-![Output](screenshot.png)
+![Output](Screenshot.png)
 
 ## Code:
 ```cpp
