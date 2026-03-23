@@ -31,9 +31,9 @@ int main() {
         return {};
     }   
 }
- 
-  
-<img width="1904" height="907" alt="Screenshot 2026-03-23 224326" src="https://github.com/user-attachments/assets/c87d0be4-ebca-492b-8df9-c5d88a91a4f2" />
 
 //Time complexity: O(n2)
 //Space complexity: O(1).
+
+
+<img width="1904" height="907" alt="Screenshot 2026-03-23 224326" src="https://github.com/user-attachments/assets/b43b91a1-87d6-4179-ad6c-cfbfeec87fdf" />
