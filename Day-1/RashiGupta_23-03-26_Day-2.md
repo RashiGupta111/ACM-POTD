@@ -34,3 +34,6 @@ int main() {
 
 //Time complexity: O(n2)
 //Space complexity: O(1).
+
+## Screenshot:
+![Output](output.png)
