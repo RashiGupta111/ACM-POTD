@@ -1,5 +1,5 @@
 
-# Day 1 - POTD
+# Day 2 - POTD
 
 ## Problem Name:
 REMOVE DUPLICATES FROM SORTED ARRAY
