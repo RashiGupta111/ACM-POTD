@@ -9,6 +9,9 @@ TWO SUM
 - Step 2: Second index j also traverse after i and do compare sum with the target
 - Step 3: Returns index values if summation=target.
 
+## Screenshot:
+![Output](screenshot.png)
+
 ## Code:
 ```cpp
 #include <iostream>
@@ -35,5 +38,3 @@ int main() {
 //Time complexity: O(n2)
 //Space complexity: O(1).
 
-## Screenshot:
-![Output](output.png)
