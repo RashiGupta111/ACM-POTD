@@ -1,41 +1,41 @@
-# Day 2 - POTD
+
+# Day 1 - POTD
 
 ## Problem Name:
-Remove Duplicates from Sorted Array
+REMOVE DUPLICATES FROM SORTED ARRAY
 
 ## Approach:
-- Step 1: Use two pointer approach
-- Step 2: Pointer i keeps track of unique elements
-- Step 3: Pointer j scans the array
-- Step 4: Replace duplicates and return size
+- Step 1: Two pointer approach will be followed
+- Step 2: index i will point to the unique element and index j will track the unique element
+- Step 3: Return the size of unique k elements of array.
+
+## Screenshot:
+![Output](screenshot.png)
 
 ## Code:
 ```cpp
 #include <iostream>
 using namespace std;
 
-int removeDuplicates(int arr[], int n) {
-    if(n == 0) return 0;
+int main() {
+    // your code here
 
-    int i = 0;
+   int removeDuplicates(vector<int>& nums) {
 
-    for(int j = 1; j < n; j++) {
-        if(arr[j] != arr[i]) {
+    int n=nums.size();
+      int i=0, j=1;
+
+      while(j<n){
+        if(nums[i]!=nums[j]){
             i++;
-            arr[i] = arr[j];
+            nums[i]=nums[j];
         }
+        j++;
+      }
+      return i+1;
     }
 
-    return i + 1;
 }
 
-int main() {
-    int arr[] = {1,1,2,2,3};
-    int n = 5;
-
-    int k = removeDuplicates(arr, n);
-
-    cout << "Unique elements count: " << k << endl;
-
-    return 0;
-}<img width="1904" height="902" alt="Screenshot 2026-03-24 020334" src="https://github.com/user-attachments/assets/8115edef-8c99-4110-98f2-2c531c6c7d6b" />
+//Time complexity: O(n)
+//Space complexity: O(1).
