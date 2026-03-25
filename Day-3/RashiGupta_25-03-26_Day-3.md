@@ -9,10 +9,14 @@ Missing Number
 - Step 3: Calculate the actual sum of array elements
 - Step 4: Missing number = expected sum - actual sum
 
+## Screenshot:
+![Output](screenshot.png)
+
 ## Code:
 ```cpp
 #include <iostream>
 using namespace std;
+int main(){
 
 int missingNumber(vector<int>& nums) {
         int n=nums.size();
@@ -26,6 +30,6 @@ int missingNumber(vector<int>& nums) {
 
         return target-sum;
     }
-
+}
 //Time Complexity:O(n)
 //Space Complexity:O(1)
