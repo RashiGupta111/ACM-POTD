@@ -26,3 +26,6 @@ int missingNumber(vector<int>& nums) {
 
         return target-sum;
     }
+
+//Time Complexity:O(n)
+//Space Complexity:O(1)
