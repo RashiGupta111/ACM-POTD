@@ -68,3 +68,8 @@ public:
         return maxprofit;
     }
 };
+
+//Optimised code using Greedy
+
+//TC: O(n)
+//SC: O(1)
