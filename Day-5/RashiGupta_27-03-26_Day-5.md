@@ -11,7 +11,8 @@ Move Zeroes
 - Step 5: Increment j
 - Step 6: Continue until end
 
-
+## Screenshot:
+![Output](screenshot.png)
 
 ## Code:
 ```cpp
@@ -33,3 +34,6 @@ public:
     }
 };
 }
+
+//TC O(n)
+//SC O(1)
