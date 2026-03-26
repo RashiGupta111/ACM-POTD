@@ -20,7 +20,51 @@ using namespace std;
 
 int main() {
 
+    int maxProfit(vector<int>& prices) {
 
+        int n=prices.size();
+        int profit=0;
+        for(int i=0; i<n; i++){
+            for(int j=i+1; j<n; j++){
+                if(prices[j]>prices[i]){
+                    int diff=prices[j]-prices[i];
+                    if(profit<diff){
+                        profit=diff;
+                    }
+                }
+            }
+        }
+    return profit;
 
-
+    }
 }
+
+//TC: O(n2)
+//SC:  O(1)
+
+//Logic is right but This will give TLE. So, the optimised code will run on leetcode.
+
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+
+        int n=prices.size();
+        
+        int minprice=prices[0];
+        int maxprofit=0;
+
+        for(int i=0; i<n; i++){
+            if(prices[i]<minprice){
+                minprice=prices[i];
+            }
+
+            int profit= prices[i]-minprice;
+            if(maxprofit<profit){
+                maxprofit=profit;
+            }
+        }
+
+        return maxprofit;
+    }
+};
