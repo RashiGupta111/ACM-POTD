@@ -10,6 +10,9 @@ Best Time to Buy and Sell Stock
 - Step 4: Update maximum profit
 - Step 5: Update minimum price if current price is smaller
 
+## Screenshot:
+![Output](screenshot.png)
+
 ## Code:
 ```cpp
 #include <iostream>
