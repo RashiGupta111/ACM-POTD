@@ -42,8 +42,9 @@ int main() {
 //TC: O(n2)
 //SC:  O(1)
 
-//Logic is right but This will give TLE. So, the optimised code will run on leetcode.
+//Brute force..the logic is right but this will give TLE.
 
+//Need optimised code
 
 class Solution {
 public:
