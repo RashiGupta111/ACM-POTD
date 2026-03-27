@@ -34,3 +34,6 @@ int main() {
 
     return 0;
 }
+
+//TC: O(n2)
+//SC: O(1)
