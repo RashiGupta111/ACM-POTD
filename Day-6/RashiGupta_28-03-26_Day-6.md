@@ -4,14 +4,14 @@
 Check If N and Its Double Exist 
 
 ## Approach:
-- Step 1: Use a set to store visited elements
 - Step 2: Traverse the array
 - Step 3: For each element x:
-    - Check if 2*x exists in set
-    - OR if x is even, check if x/2 exists in set
+    - Check if all the condition satisfy for an element and it's double
 - Step 4: If found, return true
-- Step 5: Otherwise, insert x into set
-- Step 6: If no pair found, return false
+- Step 5: Otherwise, return false
+
+## Screenshot:
+![Output](Screenshot.png)
 
 ## Code:
 ```cpp
