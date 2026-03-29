@@ -9,6 +9,9 @@ Rotate Array
 - Step 3: Reverse first k elements
 - Step 4: Reverse remaining n-k elements
 
+## Screenshot:
+![Output](Screenshot.png)
+
 ## Code:
 ```cpp
 
